@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get Started</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url("WhatsApp Image 2025-04-06 at 11.04.18_5f0f30ce.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .get-started-container {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(5px);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: 80px auto;
+      animation: fadeSlideUp 1s ease forwards;
+      opacity: 0;
+      text-align: center;
+    }
+    
+
+    /* Animations */
+    @keyframes slideRightToLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeSlideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    header {
+      animation: slideRightToLeft 1s ease-in-out forwards;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to right, #d500f9, #00c853);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      padding: 60px 20px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .get-started-container {
+      text-align: center;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: 80px auto;
+      animation: fadeSlideUp 1s ease forwards;
+      opacity: 0;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .next-button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      transition: background 0.3s;
+    }
+
+    .next-button:hover {
+      background-color: #0056b3;
+    }
+
+    .next-button span {
+      margin-left: 8px;
+      font-size: 1.2rem;
+    }
+    img.profile {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 5px solid #0077b6;
+      margin-top: 20px;
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  img.profile:hover {
+      transform: scale(1.05);
+  }
+
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Predictive Maintenance System</h1>
+    <nav>
+      <ul>
+        <li><a href="getstarted.html">Get Started</a></li>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="upload.html">Upload Data</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+        <li><a href="Alerts.html">Alerts</a></li>
+        <li><a href="Settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="get-started-container">
+    <section><h2>Welcome!</h2>
+    <h1>I am Meghana Yeluchuri!</h1>
+    <p>Get ready to explore the Predictive Maintenance Dashboard.</p>
+    <img src="WhatsApp Image 2025-04-06 at 11.30.05_3356e050.jpg"  class="profile">
+    
+    <a href="index.html">
+      <button class="next-button">
+        Next <span>→</span>
+      </button>
+    </a></section>
+  </div>
+
+</body>
+</html>

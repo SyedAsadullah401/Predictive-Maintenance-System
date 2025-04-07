@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictive Maintenance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Predictive Maintenance System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="upload.html">Upload Data</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+                <li><a href="Alerts.html">Alerts</a></li>
+                <li><a href="Settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h2>System Overview</h2>
+            <div id="system-status">
+                </div>
+        </section>
+
+        <section id="predictions">
+            <h2>Current Predictions</h2>
+            <div id="predictions-table-container">
+                <table id="predictions-table">
+                    <thead>
+                        <tr>
+                            <th>Equipment ID</th>
+                            <th>Predicted Failure Type</th>
+                            <th>Probability of Failure</th>
+                            <th>Time to Failure</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="alerts">
+            <h2>Recent Alerts</h2>
+            <div id="alerts-list">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Predictive Maintenance System</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="script.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Sensor Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>Upload Sensor Data</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="upload.html">Upload Data</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+                <li><a href="Alerts.html">Alerts</a></li>
+                <li><a href="Settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="upload-form">
+            <h2>Upload Data</h2>
+            <form id="data-upload-form" enctype="multipart/form-data">
+                <label for="data-file">Select CSV File:</label><br>
+                <input type="file" id="data-file" name="data-file" accept=".csv"><br><br>
+                <button type="submit">Upload</button>
+            </form>
+            
+            <div id="upload-status"></div>
+        </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Predictive Maintenance System</p>
+    </footer>
+
+    <script src="upload.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+</body>
+</html>
